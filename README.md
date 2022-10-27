@@ -10,23 +10,25 @@
 
 ### Encryption
 
-### Messaging Services
+### Bindings
 
-### Http Services
+#### Messaging Services
 
-### Services
+#### Http Services
+
+#### WS Http Bindings
+
+#### Net Named Pipes
 
 ### Validation
 
 ### REST Style Services
 
-### Service Descriptors
+### Metadata
 
-### Service Contract
+#### Service Descriptors
 
-### WS Http Bindings
-
-### Net Named Pipes
+#### Service Contract
 
 ### Client Generation
 
