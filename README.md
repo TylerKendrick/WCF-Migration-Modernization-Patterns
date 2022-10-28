@@ -12,7 +12,7 @@
 
 ### Bindings
 
-#### Messaging Services
+#### Queues
 
 #### Http Services
 
@@ -20,7 +20,15 @@
 
 #### Net Named Pipes
 
+#### NetBinding and WebSockets
+
 ### Validation
+
+#### Schema Validation
+
+#### Data Validation
+
+### Transactions
 
 ### REST Style Services
 
@@ -39,3 +47,5 @@
 ### Reliable Sessions
 
 ### Custom Behaviors
+
+### Data Streaming
