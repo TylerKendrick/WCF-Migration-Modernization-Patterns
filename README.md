@@ -46,42 +46,87 @@ Modern technology stacks supply many of the feature sets that WCF used to provid
 
 ### Encryption
 
+#### References
+
+* [PaaS Encryption with Azure](https://learn.microsoft.com/en-us/azure/security/fundamentals/encryption-overview#tls-encryption-in-azure)
+
 ### Bindings
 
 #### Queues
 
+##### References
+
+* [Azure Function Queue Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-service-bus-trigger?tabs=in-process%2Cextensionv5&pivots=programming-language-csharp)
+
 #### Http Services
+
+##### References
+
+* [Azure Function Http Trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=in-process%2Cfunctionsv2&pivots=programming-language-csharp)
 
 #### WS Http Bindings
 
+Currently Not Available
+
+##### References
+
+* [Azure Web PubSub](https://learn.microsoft.com/en-us/azure/azure-web-pubsub/concept-service-internals)
+* [Azure SignalR](https://learn.microsoft.com/en-us/azure/azure-signalr/signalr-overview)
+
 #### Net Named Pipes
 
-#### NetBinding and WebSockets
+Currently Not Available
 
 ### Validation
+Several kinds of validation are available for use from the dotnet community; Recommendations for the variety of validations available are detailed below.
 
 #### Schema Validation
 
+##### References
+
+* [protobuf](https://learn.microsoft.com/en-us/aspnet/core/grpc/protobuf?view=aspnetcore-6.0)
+* [Newtonsoft JSON Schema](https://www.newtonsoft.com/json/help/html/JsonSchema.htm)
+* [XML Validation](https://learn.microsoft.com/en-us/dotnet/standard/data/xml/xml-schema-xsd-validation-with-xmlschemaset)
+
 #### Data Validation
+
+##### References
+
+* [Data Annotations](https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/models-data/validation-with-the-data-annotation-validators-cs)
+* [Fluent Validation](https://docs.fluentvalidation.net/en/latest/)
 
 ### Transactions
 
-### REST Style Services
+Currently Not Available
 
 ### Metadata
 
-#### Service Descriptors
+#### Service Descriptors / Contract / Client Generation
 
-#### Service Contract
+Service documentation and descriptors for service discovery can be provided with OpenAPI compliant protocol implementations such as NSwag and Swashbuckle. These two frameworks can read and generate service clients for compliant apis.
 
-### Client Generation
+##### References
+
+* [Swashbuckle/Swagger Docs](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-6.0&tabs=visual-studio)
+* [NSwag Docs](https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-6.0&tabs=visual-studio)
 
 ### Caching
 
+#### References
+
+* [Framework Caching](https://learn.microsoft.com/en-us/dotnet/core/extensions/caching)
+* [Azure Cache for Redis](https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache)
+
 ### Transient Fault Handling
 
-### Reliable Sessions
+#### References
+
+* [Polly Framework](https://dotnetfoundation.org/projects/polly)
 
 ### Custom Behaviors
 
+TO BE DETEREMINED
+
 ### Data Streaming
+
+TO BE DETEREMINED
