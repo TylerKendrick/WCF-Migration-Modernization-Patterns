@@ -130,3 +130,13 @@ TO BE DETEREMINED
 ### Data Streaming
 
 TO BE DETEREMINED
+
+## Future-proofing Considerations
+
+* [Explore best practices in the Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
+* [Become familiar with the Azure Well-Architected Framework](https://azure.microsoft.com/en-us/solutions/cloud-enablement/well-architected/)
+* [Microsoft Security Benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/)
+* [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+* [Microservices for Containerized Apps](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/)
+* [Cloud-native App Development](https://dotnet.microsoft.com/en-us/learn/microservices)
+
